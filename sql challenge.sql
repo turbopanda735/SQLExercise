@@ -8,7 +8,7 @@ WHERE Price = 1400;
 -- find all products that cost $11.99 or $13.99
 SELECT * FROM products
 WHERE Price = 11.99 
-AND Price = 13.99;
+OR Price = 13.99;
 
 -- find all products that do NOT cost 11.99 - using NOT
 SELECT * FROM products 
